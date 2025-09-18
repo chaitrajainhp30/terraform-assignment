@@ -1,10 +1,10 @@
 variable "base_image" {
-  description = "Docker image to use (e.g., ubuntu or centos)"
+  description = "Docker image to use "
   type        = string
 }
 
 variable "user_name" {
-  description = "Your name to prefix the volume"
+  description = "name to prefix the volume"
   type        = string
 }
 
